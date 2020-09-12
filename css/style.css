@@ -1,15 +1,45 @@
 .navbar-brand {
-    font-weight: bolder;
-    font-size: 30px;
-    color: #0000;
-    
-}
+    font-size: 2em;
+    border: 0 0 10px 10px;
+    color: #FFFFFF;
+  }
+  
 
-#header-nav {
-    background-color: yellow;
-    border-radius: 0;
-    border: 3px solid black;
-}
+  #header-nav {
+    border: 0;
+    background-color: black;
+    color: #FFFFFF;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid red;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  
+  .nav-header {
+    background-color: #FFFFFF;
+  }
+  
+  .nav-brand {
+    color: #FFFFFF;
+    font-size: 1.5em;
+  }
+  
+  #nav-list {
+    color: white;
+  }
+  
+  hr {
+    border-color: white;
+  }
+  
+  .item {
+    color: white;
+    font-size: 1.2em;
+  }
 
 #main-content-title  {
     font-style: oblique;
@@ -25,13 +55,6 @@
     margin-right: auto;
 }
 
-p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 25px;
-    
-    
-}
 
 #Chicken {
     font-weight: bolder;
