@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Food , LLC</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,16 +15,32 @@
                 <div class="container-fluid">
                   <div class="navbar-header">
                     <div class="navbar-brand">
-                      <p class="nav-brand"> Food , LLC </p>
+                      <a class="nav-brand"> Food , LLC </a>
                     </div>
-                    <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                      <span class="sr-only">toggle navigation</span>
+                    <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+                      <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
                   </div>
 
+
+                  <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                     <li class="text-center">
+                       <a href="#mudde-div"><p class="item">Chicken</p></a>
+                       <hr class="visible-xs">
+                     </li>            
+                     <li class="text-center bhath-item">
+                       <a href="#bhath-div"><p class="item">Beef</p></a>
+                       <hr class="visible-xs">
+                     </li>
+                     <li class="text-center idli-item">
+                       <a href="#idli-div"><p class="item">Sushi</p></a>
+                     </li>
+                   </ul> 
+                 </div>
                   
 
                 </div>
@@ -63,5 +79,8 @@
             </div>
           </div>
         </div>
+        <script src="js/jquery-2.1.4.min.js"></script>
+	      <script src="js/bootstrap.min.js"></script>
+  	    <script src="js/script.js"></script>
     </body>
 </html>
